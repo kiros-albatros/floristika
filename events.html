@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body class="events">
+        <header class="events__header">
+        <div class="wrapper header__wrapper">
+            <a href="index.html" class="logo-container">
+                <img class="header__logo" src="img/logo.svg" alt="" />
+            </a>
+            <div class="header__menu">
+                <div class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </div>
+                <span class="menu__text">МЕНЮ</span>
+            </div>
+        </div>
+
+        <div class="header__navigation">
+            <div class="wrapper navigation__wrapper">
+                <ul class="header__social-list navigation__social">
+                    <li class="social__item">
+                        <a class="social__link insta" href="">
+                            <object data="img/inst.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link fb" href="">
+                            <object data="img/fb2.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link whatsapp" href="">
+                            <object data="img/whatsapp.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link vk" href="">
+                            <object data="img/vk.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                </ul>
+                <div class="navigation__content">
+                    <a href="" class="logo-container">
+                        <img class="header__logo" src="img/logo.svg" alt="" />
+                    </a>
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="wedding.html">свадебная флористика</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="bouquets.html">букеты на любые мероприятия</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="compositions.html">композиции</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="events.html">оформление мероприятий</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="navigation__cross"></span>
+            </div>
+        </div>
+
+        </div>
+    </header>
+
+    <main>
+      <section class="subpage">
+        <div class="wrapper subpage__wrapper">
+          <div class="subpage__picture">
+            <img class="bouquet-desktop" src="img/events.jpg" alt="" />
+            <img class="bouquet-tablet" src="img/events.jpg" alt="" />
+          </div>
+          <div class="subpage__content">
+            <h1 class="subpage__title">оформление мероприятий</h1>
+            <p class="subpage__text">
+              Мы оформим любое мероприятие в выбранном вами стиле.
+              Рождественские, хеллоуин, день рождение или любое другое
+              мероприятие могут превратиться в настоящую сказку, всего лишь
+              благодаря оформлению. Полную коллекцию оформлений в разнообразных
+              стилях вы можете посмотреть в нашем инстаграмме.
+            </p>
+            <button class="button events__button">заказать</button>
+
+            <div class="mini-slider-wrapper">
+              <div class="slider-mini">
+                <img src="img/events1.jpg" alt="" />
+                <img src="img/events2.jpg" alt="" />
+                <img src="img/events3.jpg" alt="" />
+                <img src="img/events4.jpg" alt="" />
+                <img src="img/events5.jpg" alt="" />
+                <img src="img/events6.jpg" alt="" />
+                <img src="img/events7.jpg" alt="" />
+                <img src="img/events8.jpg" alt="" />
+              </div>
+              <div class="mini-controls">
+                <div class="mini-slider__button mini-prev"></div>
+                <div class="mini-slider__button mini-next"></div>
+              </div>
+            </div>
+            <div class="subpage__footer">
+              <span>Больше фотографий в профиле</span>
+              <a class="subpage__social-link" href=""></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <div class="modal modal__overlay">
+    <div class="modal__popup">
+        <p class="popup__picture-wrapper">
+            <img class="popup__picture" src="img/popup.jpg" alt="">
+        </p>
+        <div class="popup__content">
+            <h4 class="popup__title">Оставьте свой
+                номер и мы вам
+                перезвоним!</h4>
+            <form action="" method="post" class="popup__form">
+                <input type="text" class="popup__name" name="name" placeholder="Имя" required>
+                <input type="text" name="phone" id="" placeholder="Телефон" minlength="4" required>
+                <input type="submit" value="ПОЗВОНИТЕ МНЕ" class="button popup__button">
+            </form>
+            <div class="popup__cross"></div>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer">
+    <div class="wrapper footer__wrapper">
+        <ul class="footer__navigation">
+            <li class="footer__item">
+                <a class="footer__link" href="wedding.html">Cвадебная флористика</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="bouquets.html">Букеты на любые мероприятия</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="wedding.html">Букеты невесты</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="compositions.html">Композиции</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="events.html">Оформление мероприятий</a>
+            </li>
+        </ul>
+
+        <ul class="footer__social-list">
+            <li class="social__item">
+                <a class="social__link insta" href="">
+                    <object data="img/inst.svg" type="image/svg+xml"></object>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="social__link fb" href="">
+                    <object data="img/fb2.svg" type="image/svg+xml"></object>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="social__link whatsapp" href="">
+                    <object data="img/whatsapp.svg" type="image/svg+xml"></object>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="social__link vk" href="">
+                    <object data="img/vk.svg" type="image/svg+xml"></object>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script src="js/eventsScript.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/eventsScript.min.js"></script>
+  </body>
+</html>
